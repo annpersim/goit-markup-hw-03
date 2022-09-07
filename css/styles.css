@@ -10,9 +10,6 @@
   --logo: #000000;
   --border-line: #ececec;
   --portfolio-gap: 30px;
-  --shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-  --shadow-member: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
-    0px 2px 1px rgb(0 0 0 / 20%);
 }
 
 body {
@@ -180,7 +177,6 @@ img {
 .main-btn:hover,
 .main-btn:focus {
   background-color: var(--button-active);
-  box-shadow: var(--shadow);
 }
 
 /* Особенности */
@@ -253,7 +249,6 @@ img {
 
 .unit {
   background-color: var(--primary-background);
-  box-shadow: var(--shadow-member);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -374,7 +369,6 @@ img {
 .btn:focus {
   background-color: var(--accent-color);
   color: var(--primary-background);
-  box-shadow: var(--shadow);
 }
 
 .gallery {
